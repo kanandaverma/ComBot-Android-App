@@ -1,7 +1,7 @@
 This app was created in a 36 hour long hackathon at California Institute of Technology.
 
 ## What it does
-Simply tell the app the compound structure and it'll return the compound name("What is H2O?"... *returns* "Water") The user simply speaks into the phone to phone... the speech is then translated from audio to string using Bing Speech Api and we run that string into Wolframs powerful engine to return a result to the user
+Simply tell the app the compound structure and it'll return the compound name("What is H2O?"... *returns* "Water") The user simply speaks into the phone, the speech is then translated from audio to string using Bing Speech Api and we run that string into Wolframs powerful engine to return a result to the user
 
 ## How we built it
 We as a team worked as a TEAM! initially trained a model to recognize the intent of our speech. We processed the audio into text and used NLP to predict our intent. We had to deserialize our output files to a readable file and send for query into the Wolfram engine to return a desired result. We then built the UI to polish our product
